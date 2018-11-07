@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## การบ้าน YWC16 สาขา Programming
 
-In the project directory, you can run:
+ค่อยอัพหลังจากสัมภาษณ์แล้ว
 
 ### `npm start`
 
