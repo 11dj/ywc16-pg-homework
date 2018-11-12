@@ -1,15 +1,18 @@
 
-## การบ้าน YWC16 สาขา Programming
+# การบ้าน YWC16 สาขา Programming
 
-ค่อยอัพหลังจากสัมภาษณ์แล้ว
+ตามโจทย์ที่พี่เขาให้มา คือ 
+"ให้พัฒนาเว็บไซต์ที่เชื่อมต่อ API เข้ากับ Public API ใด ๆ ก็ได้เพื่อทำการแสดงผลข้อมูลให้อยู่ในรูปแบบที่มีประโยชน์และแปลกใหม่
+ตัวอย่าง Public API"
 
-# ywc16-pg-homework
+ผมเลือกใช้ Skyscanner API ในการทำการบ้านด้วยเช็คราคาเที่ยวบินไปไหนถูกสุด หรือ ใส่งบประมาณที่ต้องการ เช็คดูได้ว่าไปไหนถูกสุดและไม่เกินงบตามที่ต้องการ
 
-## Steps to follow :scroll:
 
-### 1. add node_modules to the root and client folder first
+## ขั้นตอนการใช้งาน :scroll:
 
-#### follow the command line below
+### 1. ดาวน์โหลด โปรเจคนี้ลงเครืองคุณก่อน
+
+#### ด้วยเข้า command line ตามคำสั่งดังนี้
 
 ```
 npm install
@@ -17,9 +20,18 @@ cd client
 npm install
 ```
 
-### 2. Enjoy my project 
+### 2. ติดตั้ง node_modules ก่อน
 
-#### follow the command line below
+
+```
+npm install
+cd client
+npm install
+```
+
+### 3. เริ่มใช้งานได้เลย
+
+#### ด้วยคำสั่งดังนี้
 ```
 yarn dev
 ```
