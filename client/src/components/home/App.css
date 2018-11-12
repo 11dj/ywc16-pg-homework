@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent; 
+}
+
+.App-header {
+  /* background: linear-gradient(135deg, #83a4d4 0%, #b6fbff 100%); https://uigradients.com/#Friday */
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0px 20px;
+  color: white;
+  /* padding-bottom: 10px; */
+}
+
+.App-body {
+  /* background: linear-gradient(135deg, #e52054 0%, #001760 100%); */
+  /* min-height: 50vh; */
+}
+
+.App-link {
+  color: #61dafb;
+} 
+
+.first_topic {
+  /* text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3); */
+  margin: 16px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 3px 0px 2px rgba(150, 150, 150, 1);
+}
+
+.search-input {
+  width: 50%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+  box-shadow: 0px 15px 30px -15px #111; 
+}
+
+.search-input::placeholder {
+  font-size: 16px;
+}
+.search-btn {
+  font-size: 23px;
+  border: none;
+  color: gray;
+  background: none;
+  position: absolute;
+  transform: translate(-100%,4%);
+}
+
+.clear-btn {
+  margin-left: 10px;
+  font-size: 19px;
+  position: absolute;
+  transform: translateY(30%);
+  border: none;
+  background: none;
+  color: #fff;
+  font-weight: bold;
+  display: none;
+}
+
+.loading_div {
+  margin-top: 28px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.budget-container, .cheap-container {
+  width: 80%;
+  max-width: 840px;
+  background: #fff;
+  margin: auto;
+  max-height: 600px;
+  height: 800px;
+  border-radius: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 30px -15px #111;
+  overflow-y: scroll;
+}
+
+.budget-sort-btn-div {
+  position: fixed;
+  text-align: right;
+}
+
+.budget-list-div {
+  padding: 16px;
+  height: 120px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08)
+}
+
+.budget-sort-btn {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+.budget-topic-list-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget-body-list-div {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+
+.budget-date-div {
+  flex: 1
+}
+
+.cheap-month-listx {
+  overflow-x: auto;
+  max-width: 100%;
+  /* height: 100px; */
+}
+
+.cheap-topic {
+  font-size: 18px;
+  font-weight: bold;
+}
+.cheap-month-list {
+  display: flex;
+  justify-content: center;
+  width: 180%;
+  height: 90px;
+}
+
+.cheap-month-div {
+  opacity: 0.3;
+  flex: 1;
+  height: 64px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 4px;
+  padding: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+.cheap-month-date {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #888;
+}
+.cheap-month-price{
+  text-align: right;
+  font-size: 1em;
+  font-weight: bold;
+  color: #111;
+}
+
+.cheap-list-divxy {
+  overflow-x: auto;
+  max-height: 460px;
+}
+
+.cheap-list-divx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cheap-h {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.cheap-list-div {
+  width: 96%;
+  background: #fff;
+  height: 128px;
+  padding:8px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+  margin-bottom: 10px;
+}
+
+.cheap-list-topx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cheap-list-top {
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
