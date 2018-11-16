@@ -1,6 +1,6 @@
-const express = require("express");
-const axios = require("axios");
-const router = express.Router();
+const express = require('express')
+const axios = require('axios')
+const router = express.Router()
 
 router.get("/getIP", (req, res) => {
   console.log('getting IP')
